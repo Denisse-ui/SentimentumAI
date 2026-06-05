@@ -1,0 +1,77 @@
+# SentimentumAI 🐦
+### Análisis de Sentimientos de Odio en Twitter/X
+
+Proyecto académico de clasificación automática de discurso de odio en tweets mediante técnicas de Procesamiento de Lenguaje Natural (NLP) y Machine Learning.
+
+---
+
+## Descripción
+
+SentimentumAI es un pipeline de análisis de texto que toma tweets en inglés y los clasifica como **discurso de odio (1)** o **contenido neutro (0)**. El sistema aplica preprocesamiento NLP, vectorización TF-IDF y modelos supervisados de clasificación para identificar patrones léxicos asociados al lenguaje agresivo en redes sociales.
+
+---
+
+## Dataset
+
+- **Fuente:** Kaggle — Twitter Hate Speech Dataset
+- **Archivo:** `twitter_train.csv`
+- **Registros:** 31,192 tweets
+- **Columnas:** `id`, `label`, `tweet`
+- **Distribución:** 92.99% neutro (0) / 7.01% odio (1)
+
+---
+
+## Tecnologías
+
+- Python 3.x
+- Pandas / NumPy
+- Scikit-learn
+- NLTK
+- Matplotlib
+- WordCloud
+
+---
+
+## Estructura del Proyecto
+
+```
+SentimentumAI/
+│
+├── twitter_train.csv          # Dataset original
+├── Sprint1_Documentacion.md   # Documentación técnica Sprint 1
+│
+├── notebooks/
+│   ├── HU01_exploracion.ipynb
+│   ├── HU02_limpieza.ipynb
+│   ├── HU03_distribucion.ipynb
+│   ├── HU04_vectorizacion.ipynb
+│   └── HU05_wordclouds.ipynb
+│
+└── outputs/
+    ├── distribucion_clases.png
+    └── wordcloud_odio.png
+```
+
+---
+
+## Equipo
+
+| Nombre | Rol |
+|--------|-----|
+| Héctor Ramón Jiménez Esquivel | Product Owner |
+| Nikesha Sonalhy Mercado Escoto | Scrum Master |
+| Carlo Eugenio Leviaguirre Chavez | Dev Team |
+| Denisse Martínez Ruíz | Dev Team |
+
+---
+
+## Metodología
+
+El proyecto sigue la metodología **Scrum** con 2 sprints de 2 semanas cada uno:
+
+- **Sprint 1 (1–14 jun):** Exploración, limpieza, vectorización y análisis visual
+- **Sprint 2 (15–28 jun):** Entrenamiento de modelos, evaluación y dashboard
+
+---
+
+*Materia: Administración del Desarrollo de Software*
