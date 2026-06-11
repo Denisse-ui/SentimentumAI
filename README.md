@@ -66,20 +66,18 @@ Sprint 2: Entrenamiento → Evaluación → Dashboard
 ```
 SentimentumAI/
 │
-├── twitter_train.csv             # Dataset original
-├── Sprint1_Documentacion.md      # Documentación técnica Sprint 1
+├── README.md
+├── Sprint1_Documentacion.md          # Documentación técnica Sprint 1
+├── SentimentumAI_Sprint1.ipynb       # Notebook único: HU-01 a HU-05 (exploración, limpieza, distribución, TF-IDF, wordclouds)
 │
-├── notebooks/
-│   ├── HU01_exploracion.ipynb
-│   ├── HU02_limpieza.ipynb
-│   ├── HU03_distribucion.ipynb
-│   ├── HU04_vectorizacion.ipynb
-│   └── HU05_wordclouds.ipynb
+├── Datos/
+│   ├── twitter_train.csv             # Dataset de entrenamiento
+│   └── twitter_test.csv              # Dataset de prueba
 │
 └── outputs/
-    ├── distribucion_clases.png
-    ├── wordcloud_odio.png
-    └── wordcloud_neutro.png
+    ├── distribucion_clases.png       # HU-03: distribución de clases
+    ├── wordcloud_odio.png            # HU-05: WordCloud tweets de odio
+    └── wordcloud_no_odio.png         # HU-05: WordCloud tweets sin odio
 ```
 
 ---
