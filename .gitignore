@@ -2,3 +2,5 @@
 .ipynb_checkpoints/
 .env
 sentimentumai-api/.env
+__pycache__/
+*.pyc
